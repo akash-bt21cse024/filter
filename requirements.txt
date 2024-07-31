@@ -1,5 +1,5 @@
 ﻿streamlit
-PIL
+Pillow
 cv2
 numpy
 matplotlib
