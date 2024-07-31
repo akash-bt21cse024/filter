@@ -1,7 +1,6 @@
 ﻿streamlit
 Pillow
 opencv-python
-
 numpy
 matplotlib
 
