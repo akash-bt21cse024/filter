@@ -1,6 +1,6 @@
 ﻿streamlit
 Pillow
-opencv-python
+opencv-python==4.10.0
 numpy
 matplotlib
 
