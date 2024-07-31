@@ -115,7 +115,7 @@ if uploaded_file is not None:
         count = np.random.randint(4000, 5000)
         download(merge,count)
     with tab5:
-        classifier = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
+        classifier = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
         if classifier.empty():
           raise IOError("Failed to load cascade classifier. Check the file path.")
